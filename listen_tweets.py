@@ -8,10 +8,10 @@ import tweepy
 from tweepy import OAuthHandler
 
 # Authentication settings
-consumer_key = 'xhCE3HtM6XYWmtlLlLzbtBCVf'
-consumer_secret = 'BilV44WczCaJsljmUY4vc79xzgIDcSoOaNgaZ3RM8LywUaP5xq'
-access_token = '494451363-KYSKQn5JgPvROwzr46jQJiUJJbD5NpLXzrL72X7M'
-access_secret = '2qjIS5qOR2U7f2duj6lw5lfBZZytx5hWqUfUSTc9mV4j6'
+consumer_key = ''
+consumer_secret = ''
+access_token = ''
+access_secret = ''
 
 auth = OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_secret)
